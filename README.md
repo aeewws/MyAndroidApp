@@ -1,9 +1,24 @@
 # MyAndroidApp
 
-This repository is currently a placeholder for a future Android app.
+MyAndroidApp is now a minimal Android starter project written in Kotlin.
 
-It does not yet contain a Gradle project, Android source tree, or build workflow. If you cloned it expecting a working Retrofit sample, there is no runnable app here yet.
+It is intentionally small:
 
-Planned next step:
+- one `Activity`
+- no Retrofit wiring yet
+- no Compose dependency yet
+- a GitHub Actions workflow that assembles the debug app
 
-- add a minimal Android project scaffold before documenting runtime features or setup steps
+## Build
+
+```bash
+./gradlew assembleDebug
+```
+
+## Run
+
+Open the project in Android Studio or install the generated debug APK from a machine with the Android SDK configured.
+
+## CI
+
+GitHub Actions runs a minimal Android build on pushes and pull requests to `main`.
