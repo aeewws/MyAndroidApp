@@ -32,3 +32,12 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# OS / local files
+.DS_Store
+Thumbs.db
+.env
+.env.*
+tmp/
+temp/
+*/build/
